@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/compnet_lab1.dir/lab2/server/4.cpp.o -o compnet_lab1 

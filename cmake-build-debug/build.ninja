@@ -49,9 +49,9 @@ cmake_ninja_workdir = C$:/Users/seu21/Documente/GitHub/compnet_lab1/cmake-build-
 
 build cmake_object_order_depends_target_compnet_lab1: phony || CMakeFiles/compnet_lab1.dir
 
-build CMakeFiles/compnet_lab1.dir/lab2/client/10.c.obj: C_COMPILER__compnet_lab1_Debug C$:/Users/seu21/Documente/GitHub/compnet_lab1/lab2/client/10.c || cmake_object_order_depends_target_compnet_lab1
-  DEP_FILE = CMakeFiles\compnet_lab1.dir\lab2\client\10.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+build CMakeFiles/compnet_lab1.dir/lab2/client/5.cpp.obj: CXX_COMPILER__compnet_lab1_Debug C$:/Users/seu21/Documente/GitHub/compnet_lab1/lab2/client/5.cpp || cmake_object_order_depends_target_compnet_lab1
+  DEP_FILE = CMakeFiles\compnet_lab1.dir\lab2\client\5.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
   INCLUDES = -IC:/Users/seu21/Documente/GitHub/compnet_lab1/5
   OBJECT_DIR = CMakeFiles\compnet_lab1.dir
   OBJECT_FILE_DIR = CMakeFiles\compnet_lab1.dir\lab2\client
@@ -64,7 +64,7 @@ build CMakeFiles/compnet_lab1.dir/lab2/client/10.c.obj: C_COMPILER__compnet_lab1
 #############################################
 # Link the executable compnet_lab1.exe
 
-build compnet_lab1.exe: C_EXECUTABLE_LINKER__compnet_lab1_Debug CMakeFiles/compnet_lab1.dir/lab2/client/10.c.obj
+build compnet_lab1.exe: CXX_EXECUTABLE_LINKER__compnet_lab1_Debug CMakeFiles/compnet_lab1.dir/lab2/client/5.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\compnet_lab1.dir
